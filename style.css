@@ -1,0 +1,33 @@
+body {
+    background: rgb(0, 87, 116);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form {
+    color: white;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+#contactForm{
+    margin-top: 50px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input-field{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.invalid-feedback{
+    color: coral;
+}
